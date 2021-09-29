@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inter:wght@200&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 150px 0 150px;
+  height: 100%;
+  background-color: #1db9c3;
+  font-family: "Architects Daughter", cursive;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.container h1 {
+  margin: 20px;
+  text-align: center;
+}
+
+.container textarea {
+  margin: 20px;
+  width: 420px;
+  margin-left: 100px;
+}
+
+.container button {
+  width: 300px;
+  height: 80px;
+  background-color: transparent;
+  margin-left: 160px;
+  font-size: 20px;
+}
+
+::placeholder {
+  font-size: 17px;
+}
+
+.intructor {
+  width: 330px;
+  margin-left: 165px;
+  font-size: 20px;
+}
+
+.container button:hover {
+  background-color: #082032;
+}
